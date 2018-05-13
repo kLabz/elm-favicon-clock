@@ -22,7 +22,7 @@ fontSize = 14
 textStyle : Style
 textStyle = { typeface = ["monospace"]
             , height = Just fontSize
-            , color = black
+            , color = Color.rgb 233 234 235
             , bold = False
             , italic = False
             , line = Nothing
@@ -71,7 +71,10 @@ update msg model =
 -- VIEW
 view : Model -> Html Msg
 view model =
-      collage canvasWidth canvasHeight [ fromTimeTo model.cltype model.time
+      collage canvasWidth canvasHeight [
+                                        Collage.square 16
+                                            |> Collage.filled (Color.rgb 42 48 59)
+                                        , fromTimeTo model.cltype model.time
                                            |> toString
                                            |> padLeft 2 '0'
                                            |> fromString
