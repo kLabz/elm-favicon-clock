@@ -10,11 +10,11 @@ Google Chrome で、○時の favicon と、○分の favicon を両方タブ固
 
 下記 URL にアクセスすると、favicon に時を表示する。
 
-- [hour](https://taiju.github.io/elm-favicon-clock/#hour)
+- [hour](https://kLabz.github.io/elm-favicon-clock/#hour)
 
 下記 URL にアクセスすると、favicon に分を表示する。
 
-- [min](https://taiju.github.io/elm-favicon-clock/#min)
+- [min](https://kLabz.github.io/elm-favicon-clock/#min)
 
 以下は `22:52` の例。
 
